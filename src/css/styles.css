@@ -1,0 +1,209 @@
+/*
+somegrey :#a9a9a942;
+linkblue :#1567d0;
+footer and facebook color: #3B5998 !important
+logo with color : #0171be;
+anchor #007bff
+*/
+
+.logo{
+    max-width: 9rem;
+}
+.lightgrey{
+    background-color: #a9a9a942 !important;
+}
+.linkblue{
+    color: #1567d0;
+}
+.card-group{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    height: 100% !important;
+}
+.padd10{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    max-height: 200px;
+}
+.card-text{
+    font-size: 0.625rem;
+}
+.imgslide {
+   
+  }
+  .secondary{
+      color: #6c757d;
+  }
+  
+.cardImage{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    background: white;
+    object-fit: contain;
+}
+.footercolor{
+    background: #0171be !important; 
+    padding: 0px !important;
+}
+#footerlogo::after{
+    content: "|";
+    color: white;
+}
+#footerlogo{
+    padding: 0px !important;
+}
+.fa-facebook {
+    color: #3B5998;
+    background: white;
+  }
+  .fa {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  } 
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-linkedin {
+    color: #007bb5;
+    background: white;
+  }
+  .colorwhite{
+      color:white !important;
+  }
+  .carousel-indicators li{
+      border-radius: 50%;
+      border:1px solid white;
+      width:10px;
+      height: 10px;
+      background-color: transparent;
+  }
+  .paddzero{
+      padding: 0px !important;
+  }
+
+  ._cardFooter{
+    padding-top: 0px !important;
+    border: 0px !important;
+    background: inherit !important;
+    font-size: 14px;
+  }
+  .ellipsis{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .middle{
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+  }
+  .cardHead{
+      line-height: 1.0;
+      font-size: 0.9rem !important;
+  }
+  .card{
+      border:0px !important;
+  }
+
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+    background: ffffff59;
+    padding:0px;
+    padding-bottom:45px;   /* Height of the footer */
+}
+#PreFooter{
+    background-color:white;
+}
+
+
+
+
+/* styles for '...' */ 
+.block-with-text {
+    /* hide text if it more than N lines  */
+    overflow: hidden;
+    /* for set '...' in absolute position */
+    position: relative; 
+    /* use this value to count block height */
+    line-height: 1.2em;
+    /* max-height = line-height (1.2) * lines max number (5) */
+    max-height: 6.0em; 
+    /* fix problem when last visible word doesn't adjoin right side  */
+    text-align: justify;  
+    /* place for '...' */
+    margin-right: -1em;
+    padding-right: 1em;
+  }
+  /* create the ... */
+  .block-with-text:before {
+    /* points in the end */
+    content: '...';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of block */
+    right: 0;
+    bottom: 0;
+  }
+  /* hide ... if we have text, which is less than or equal to max lines */
+  .block-with-text:after {
+    /* points in the end */
+    content: '';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of text */
+    right: 0;
+    /* set width and height */
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    /* bg color = bg color under block */
+    background: white;
+  }
+
+/*
+
+Media Queries for Carousel
+
+*/
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+/* Ipad landscape */
+@media only screen and (min-width: 1024px) {
+    .lessHeight{
+        max-height: 300px;
+    }
+}
