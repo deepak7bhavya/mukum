@@ -3,6 +3,10 @@ somegrey :#a9a9a942;
 linkblue :#1567d0;
 footer and facebook color: #3B5998 !important
 logo with color : #0171be;
+footer color :#034b5a; #024B5A
+#4b91a5
+
+#046682
 anchor #007bff
 */
 
@@ -12,9 +16,7 @@ anchor #007bff
 .lightgrey{
     background-color: #a9a9a942 !important;
 }
-.linkblue{
-    color: #1567d0;
-}
+
 .card-group{
     padding-top: 5px !important;
     padding-bottom: 5px !important;
@@ -25,12 +27,28 @@ anchor #007bff
     padding-right: 5px !important;
     max-height: 200px;
 }
+#my-carousel{
+    padding-top: 56px;
+}
 .card-text{
+    /*
+    font-size: 0.625rem;
+    */
+    font-size: 10px;
+    height: 60px;
+    overflow: hidden;
+}
+.copyright-text{
     font-size: 0.625rem;
 }
-
-  .secondary{
-      color: #6c757d;
+a.headerLogo{
+    top: 7px;
+    left: -11px;
+    position: absolute
+}
+  img.headerLogo{
+      
+      width: max-content;
   }
   .active{
       background:#1567d0 !important;
@@ -43,7 +61,7 @@ anchor #007bff
     object-fit: contain;
 }
 .footercolor{
-    background: #0171be !important; 
+    background: #024B5A !important; 
     padding: 0px !important;
 }
 #footerlogo::after{
@@ -102,10 +120,12 @@ anchor #007bff
       margin-left: auto;
       margin-right: auto;
       width: 90%;
+      padding-bottom: 15px;
   }
   .cardHead{
       line-height: 1.0;
-      font-size: 0.9rem !important;
+      font-size: 0.8rem !important;
+      color: #046682;
   }
   .card{
       border:0px !important;
@@ -135,7 +155,7 @@ body {
     background-color:white;
 }
 .lessHeight{
-    object-fit: cover; 
+    object-fit: fill; 
 }
 
 
@@ -182,6 +202,8 @@ body {
     background: white;
   }
 
+
+
 /*
 
 Media Queries for Carousel
@@ -204,8 +226,14 @@ Media Queries for Carousel
 @media only screen and (max-width: 479px) {}
 
 /* Ipad landscape */
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .lessHeight{
         max-height: 300px;
     }
 }
+/* Ipad portrait */
+/* @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .lessHeight{
+        max-height: 600px;
+    }
+} */
