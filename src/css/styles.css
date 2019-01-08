@@ -157,7 +157,16 @@ body {
 .lessHeight{
     object-fit: fill; 
 }
-
+a.footerlogo{
+    top: 7px;
+    left: -11px;
+    position: absolute;
+}
+.socialIcons{
+    font-size: 25px;
+    color: white;
+    background: transparent;
+}
 
 
 /* styles for '...' */ 
