@@ -41,6 +41,10 @@ anchor #007bff
 .copyright-text{
     font-size: 0.625rem;
 }
+.dimgreybold{
+    font-weight: bold;
+    color: dimgrey;
+}
 a.headerLogo{
     top: 7px;
     left: -11px;
