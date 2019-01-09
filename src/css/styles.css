@@ -117,10 +117,8 @@ a.headerLogo{
 #footerlogo{
     padding: 0px !important;
 }
-.fa-facebook {
-    color: #3B5998;
-    background: white;
-  }
+
+
   .fa {
     border-radius: 10px;
     padding: 10px;
@@ -136,6 +134,14 @@ a.headerLogo{
   .fa-linkedin {
     color: #007bb5;
     background: white;
+  }
+  .fa-facebook {
+    color: #3B5998;
+    background: white;
+  }
+  .fa.fa-angle-left, .fa.fa-angle-right {
+    font-size: 64px;
+    color: black;
   }
   .colorwhite{
       color:white !important;
@@ -192,7 +198,7 @@ body {
    background:#ff0;
    padding:10px;
 }
-#body {
+.body {
     background: ffffff59;
     padding:0px;
     padding-bottom:45px;   /* Height of the footer */
