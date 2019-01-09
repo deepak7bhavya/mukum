@@ -48,6 +48,11 @@ border-top: 1px solid #919396;
     border-top: 1px solid #919396;
     
 }
+.subCategoryList .nav-link {
+    color: #046682 !important;
+    padding-left: 30px;
+    background:white;
+}
 .table td{
     font-weight: bold;
     border-top: 1px solid #919396;
@@ -64,13 +69,10 @@ border-top: 1px solid #919396;
 .paddLeft{
     padding-left: 1.25rem;
 }
-#my-carousel{
-    /* padding-top: 56px; */
+.subCategoryList{
+    display: unset;
 }
 .card-text{
-    /*
-    font-size: 0.625rem;
-    */
     font-size: 10px;
     height: 60px;
     overflow: hidden;
@@ -143,6 +145,7 @@ a.headerLogo{
     font-size: 64px;
     color: black;
   }
+
   .colorwhite{
       color:white !important;
   }
@@ -156,7 +159,9 @@ a.headerLogo{
   .paddzero{
       padding: 0px !important;
   }
-
+  .col-md-3 .nav-item{
+      background-color: green;
+  }
   ._cardFooter{
     padding-top: 0px !important;
     border: 0px !important;
