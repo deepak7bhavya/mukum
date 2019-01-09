@@ -10,13 +10,26 @@ footer color :#034b5a; #024B5A
 anchor #007bff
 */
 
+
+.backgroundGreen{
+    background-color: #024B5A !important;
+}
 .logo{
     max-width: 9rem;
 }
 .lightgrey{
     background-color: #a9a9a942 !important;
 }
-
+.btn-theme{
+    background-color: #024B5A;
+    border-color: black;
+    color: #fff;
+    /* border-right: 1px solid black; */
+}
+.btn-theme.active{
+    background: black;
+    box-shadow: 0px 0px 14px black;
+}
 .card-group{
     padding-top: 5px !important;
     padding-bottom: 5px !important;
@@ -31,6 +44,9 @@ anchor #007bff
     padding-left: 5px !important;
     padding-right: 5px !important;
     max-height: 200px;
+}
+.paddLeft{
+    padding-left: 1.25rem;
 }
 #my-carousel{
     /* padding-top: 56px; */
@@ -61,7 +77,7 @@ a.headerLogo{
       
       width: max-content;
   }
-  .active{
+  .carousel-indicators > .active{
       background:#1567d0 !important;
   }
 .cardImage{
