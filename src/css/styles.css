@@ -69,6 +69,9 @@ a.headerLogo{
     background: white;
     object-fit: contain;
 }
+.nav-link{
+    color:#007bff !important;
+}
 .footercolor{
     background: #024B5A !important; 
     padding: 0px !important;
