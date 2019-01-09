@@ -49,6 +49,8 @@ anchor #007bff
 .dimgreybold{
     font-weight: bold;
     color: dimgrey;
+    display: block;
+    padding: .5rem 1rem;
 }
 a.headerLogo{
     top: -7px;
