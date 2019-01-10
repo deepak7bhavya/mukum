@@ -33,6 +33,10 @@
 .description .card-body {
     font-size: 13px;
 }
+.dealerList{
+    overflow: scroll;
+    max-height: -webkit-fill-available;
+}
 .card-group{
     padding-top: 5px !important;
     padding-bottom: 5px !important;
@@ -211,8 +215,11 @@ a.headerLogo{
     padding-left: inherit;
     padding-right: inherit;
   }
-
-
+ 
+  iframe{
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+  }
 
 html,
 body {
@@ -232,6 +239,14 @@ body {
     background: ffffff59;
     padding:0px;
     padding-bottom:45px;   /* Height of the footer */
+}
+.body-find-a-dealer{
+    background: ffffff59;
+    padding-bottom: 116px;
+    padding-top: 10px;
+}
+.overflow-hidden{
+    overflow: hidden;
 }
 #PreFooter{
     background-color:white;
