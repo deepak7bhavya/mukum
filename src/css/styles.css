@@ -20,8 +20,18 @@
     /* border-right: 1px solid black; */
 }
 .btn-theme.active{
-    background: black;
-    box-shadow: 0px 0px 14px black;
+    background: #04343ec4;
+    box-shadow: 0px 0px 5px #04343ec4;
+}
+.description{
+
+}
+.card.description .card-footer{
+    border-top: 0px solid rgba(0,0,0,.125);
+    padding: 0rem 1.25rem;
+}
+.description .card-body {
+    font-size: 13px;
 }
 .card-group{
     padding-top: 5px !important;
@@ -42,10 +52,14 @@
 .subCategoryList .nav-link.active {
     background: #024B5A !important; 
     color: white !important;
+    border-radius: 0rem !important;
 }
 .subCategoryList .nav-link {
     color: #024B5A !important; 
     background: white;
+    padding: 0.2rem 1rem;
+    margin-bottom: 1px;
+    border-radius: 0rem !important;
 }
 .table td{
     font-weight: bold;
@@ -188,8 +202,15 @@ a.headerLogo{
     border-left: 6px solid whitesmoke;
     margin: 3px -1em 0 0;
   }
-
-
+  .productTitle{
+    font-style: oblique;
+    font-weight: bold;
+    color: darkslategrey;
+  }
+  .download{
+    padding-left: inherit;
+    padding-right: inherit;
+  }
 
 
 
