@@ -1,15 +1,6 @@
 /*
-somegrey :#a9a9a942;
-linkblue :#1567d0;
-footer and facebook color: #3B5998 !important
-logo with color : #0171be;
-footer color :#034b5a; #024B5A
-#4b91a5
-1px solid #919396 table th td border
-#046682
-anchor #007bff
 
-border-top: 1px solid #919396;
+
 */
 
 
@@ -48,10 +39,13 @@ border-top: 1px solid #919396;
     border-top: 1px solid #919396;
     
 }
+.subCategoryList .nav-link.active {
+    background: #024B5A !important; 
+    color: white !important;
+}
 .subCategoryList .nav-link {
-    color: #046682 !important;
-    padding-left: 30px;
-    background:white;
+    color: #024B5A !important; 
+    background: white;
 }
 .table td{
     font-weight: bold;
@@ -187,6 +181,16 @@ a.headerLogo{
   .card{
       border:0px !important;
   }
+  .subCategory.active:after{
+    content: "";
+    float: right;
+    border: 6px solid transparent;
+    border-left: 6px solid whitesmoke;
+    margin: 3px -1em 0 0;
+  }
+
+
+
 
 
 html,
