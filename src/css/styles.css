@@ -148,7 +148,12 @@ a.headerLogo{
 #footerlogo{
     padding: 0px !important;
 }
-
+.fixed-head-nav{
+    padding: 0rem 1rem;
+}
+.fixed-head-nav .nav-item.page-active{
+    border-bottom: 4px solid #046682;
+}
 
   .fa {
     border-radius: 10px;
@@ -280,8 +285,10 @@ body {
 }
 .body-find-a-dealer{
     background: ffffff59;
-    padding-bottom: 116px;
-    padding-top: 10px;
+    /* padding-bottom: 116px;
+    padding-top: 10px; */
+    padding-bottom: 101px;
+    padding-top: 4px;
 }
 .overflow-hidden{
     overflow: hidden;
