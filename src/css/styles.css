@@ -1,6 +1,7 @@
 /*
-
-
+ dealer list color background :#b2ebf2b0;
+background-color: #b2ebf2b0;
+    border-left: 12px solid #024B5A;
 */
 
 
@@ -36,6 +37,8 @@
 .dealerList{
     overflow: scroll;
     max-height: -webkit-fill-available;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .card-group{
     padding-top: 5px !important;
@@ -52,6 +55,20 @@
     font-weight: normal;
     border-top: 1px solid #919396;
     
+}
+div#v-pills-tab p {
+    margin-bottom: 0rem;
+}
+.dealer-phone.fa-phone {
+    font-size: inherit;
+    padding-left: 0px;
+    padding-bottom: unset;
+    width: auto;
+    margin: auto;
+}
+.padd-left-right-0{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .subCategoryList .nav-link.active {
     background: #024B5A !important; 
@@ -157,7 +174,25 @@ a.headerLogo{
     font-size: 64px;
     color: black;
   }
-
+  .city .fa {
+    color: red;
+    font-size: inherit;
+    padding-left: 0px;
+    padding-bottom: unset;
+    width: auto;
+    margin: auto;
+  }
+  .address.nav-link.active{
+    background-color: #b2ebf2b0;
+    border-left: 12px solid #024B5A;
+  }
+  .address.nav-link:not(.active) {
+    background-color: white;
+    border-bottom: 1.1px dotted black;
+}
+  .address * {
+    color: black !important;
+}
   .colorwhite{
       color:white !important;
   }
@@ -234,6 +269,9 @@ body {
 #header {
    background:#ff0;
    padding:10px;
+}
+.nav-link.city{
+    color: red !important;
 }
 .body {
     background: ffffff59;
