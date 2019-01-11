@@ -9,7 +9,7 @@ background-color: #b2ebf2b0;
     background-color: #024B5A !important;
 }
 .logo{
-    max-width: 9rem;
+    max-width: 12rem;
 }
 .lightgrey{
     background-color: #a9a9a942 !important;
@@ -117,8 +117,9 @@ div#v-pills-tab p {
 }
 a.headerLogo{
     top: -7px;
-    left: -27px;
+    left: -42px;
     position: relative;
+    margin-right: 0rem;
 }
   img.headerLogo{
       
@@ -138,7 +139,7 @@ a.headerLogo{
     color:#046682 !important;
 }
 .footercolor{
-    background: #024B5A !important; 
+    background: #046682 !important; 
     padding: 0px !important;
 }
 #footerlogo::after{
