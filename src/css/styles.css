@@ -154,7 +154,21 @@ a.headerLogo{
 .fixed-head-nav .nav-item.page-active{
     border-bottom: 4px solid #046682;
 }
-
+a.list-group-item::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -29px;
+    width: 206px;
+    height: 49px;
+    z-index: -1;
+    opacity: 1;
+    background: #046682;
+    transform: skewX(-40deg);
+}
+span.skew{
+    color: #fff;
+}
   .fa {
     border-radius: 10px;
     padding: 10px;
