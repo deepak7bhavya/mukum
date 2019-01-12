@@ -4,7 +4,80 @@ background-color: #b2ebf2b0;
     border-left: 12px solid #024B5A;
 */
 
+span.contact {
+    background: #0093ffa3;
+    color: white;
+    padding: 7px;
+    border-radius: 16px;
+}
+span.contact .fa {
+    background: #007bff;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    top: -3px;
+}
+.catalog{
+    background: grey;
+    color: white;
 
+}
+div.downloadPDF input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: grey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  div.downloadPDF input[type=text]::placeholder{
+      color: white;
+      opacity: 1;
+  }
+  .section{
+      
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .subHead{
+    margin-bottom: 1.5rem;
+    display: inline-block;
+  }
+  .Maintainence h5{
+      margin-bottom: 0px;
+  }
+  div.downloadPDF button {
+    float: left;
+    width: 20%;
+    padding: 9px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  div.downloadPDF button:hover {
+    background: #0b7dda;
+  }
+  
+  div.downloadPDF::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ /*  .downloadSVG{
+      background: url(../assets/icon/baseline-get_app-24px.svg);
+      
+  } */
+.Service{
+    background: white;
+}
 .backgroundGreen{
     background-color: #024B5A !important;
 }
