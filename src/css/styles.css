@@ -84,15 +84,49 @@ div.downloadPDF input[type=text] {
     cursor: pointer;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-
-
-    
+  }
+  .imagecollage{
+    position: relative;
+  }
+  .img-one{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    border: 0.25rem solid #0071bd;
+  }
+  .img-two{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0px;
+    border: 0.25rem solid orange;
+  }
+  .img-three{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 0px;
+    border: 0.25rem solid #0071bd;
+  }
+  /* .square {
+    position: relative;
+    width: 50%;
   }
   
+  .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  } */
   div.downloadPDF button:hover {
     background: #0b7dda;
   }
-  
+  .square{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
   div.downloadPDF::after {
     content: "";
     clear: both;
