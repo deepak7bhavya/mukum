@@ -41,6 +41,18 @@ div.downloadPDF input[type=text] {
       color: white;
       opacity: 1;
   }
+  div.downloadPDF label{
+    pointer-events: none;
+    padding: 11px;
+    font-size: 14px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #4d4d4d;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+  }
   .youtube-wrapper{
       background: black;
   }
@@ -63,7 +75,7 @@ div.downloadPDF input[type=text] {
   div.downloadPDF button {
     float: left;
     width: 20%;
-    padding: 9px;
+    padding: 8px;
     background: #0071bd;
     color: white;
     font-size: 17px;
@@ -72,6 +84,9 @@ div.downloadPDF input[type=text] {
     cursor: pointer;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+
+
+    
   }
   
   div.downloadPDF button:hover {
