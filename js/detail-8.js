@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $(".rotate").click(function () {
-        $(this).toggleClass("down");
+    $(".jQrotate").click(function(){
+        $(".rotate").toggleClass("down");
     });
 });
