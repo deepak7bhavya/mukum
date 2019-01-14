@@ -1,7 +1,7 @@
 /*
  dealer list color background :#b2ebf2b0;
 background-color: #b2ebf2b0;
-    border-left: 12px solid #024B5A;
+    border-left: 12px solid #006380;
 */
 
 span.contact {
@@ -21,6 +21,19 @@ span.contact .fa {
     background: #4d4d4d;
     color: white;
 
+}
+.font-1-rem{
+    font-size: 1rem !important;
+}
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
 }
 .Youtube-box h5{
     color: white;
@@ -146,7 +159,7 @@ div.downloadPDF input[type=text] {
     color:#0071bd !important;
 }
 .backgroundGreen{
-    background-color: #024B5A !important;
+    background-color: #006380 !important;
 }
 .logo{
     max-width: 12rem;
@@ -155,14 +168,14 @@ div.downloadPDF input[type=text] {
     background-color: #a9a9a942 !important;
 }
 .btn-theme{
-    background-color: #024B5A;
+    background-color: #006380;
     border-color: black;
     color: #fff;
     /* border-right: 1px solid black; */
 }
 .btn-theme.active{
-    background: #04343ec4;
-    box-shadow: 0px 0px 5px #04343ec4;
+    background: #034251;
+    box-shadow: 0px 0px 5px #034251;
 }
 .description{
 
@@ -172,6 +185,9 @@ div.downloadPDF input[type=text] {
     background-color: #0071bd;
     border-color: #0071bd;
     border-radius: 0.35rem !important;
+}
+.card-link.rotateIcon{
+    color:black !important;
 }
 button.btn.btn-catalog:active {
     box-shadow: 0px 2px #666;
@@ -221,12 +237,12 @@ div#v-pills-tab p {
     padding-right: 0px;
 }
 .subCategoryList .nav-link.active {
-    background: #024B5A !important; 
+    background: #006380 !important; 
     color: white !important;
     border-radius: 0rem !important;
 }
 .subCategoryList .nav-link {
-    color: #024B5A !important; 
+    color: #006380 !important; 
     background: white;
     padding: 0.2rem 1rem;
     margin-bottom: 1px;
@@ -289,7 +305,7 @@ a.headerLogo{
     color:#046682 !important;
 }
 .footercolor{
-    background: #046682 !important; 
+    background: #034b5a !important; 
     padding: 0px !important;
 }
 #footerlogo::after{
@@ -354,7 +370,7 @@ span.skew{
   }
   .address.nav-link.active{
     background-color: #b2ebf2b0;
-    border-left: 12px solid #024B5A;
+    border-left: 12px solid #006380;
   }
   .address.nav-link:not(.active) {
     background-color: white;
