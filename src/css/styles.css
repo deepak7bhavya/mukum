@@ -180,6 +180,10 @@ div.downloadPDF input[type=text] {
 .description{
 
 }
+.card-header-panel{
+    background-color: white;
+    padding: 0.05rem 1.25rem;
+}
 .btn-catalog{
     color: #fff;
     background-color: #0071bd;
