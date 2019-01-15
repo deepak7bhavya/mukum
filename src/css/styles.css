@@ -176,6 +176,7 @@ div.downloadPDF input[type=text] {
 .btn-theme.active{
     background: #034251;
     box-shadow: 0px 0px 5px #034251;
+    font-weight: 600;
 }
 .description{
 
@@ -245,17 +246,21 @@ div#v-pills-tab p {
     padding-left: 0px;
     padding-right: 0px;
 }
-.subCategoryList .nav-link.active {
+.productList .nav-link.active {
     background: #006380 !important; 
     color: white !important;
     border-radius: 0rem !important;
+    font-weight: 600;
 }
-.subCategoryList .nav-link {
+.productList .nav-link {
     color: #006380 !important; 
     background: white;
-    padding: 0.2rem 1rem;
+    padding: 0.5rem 1rem;
     margin-bottom: 1px;
     border-radius: 0rem !important;
+}
+.productList-col{
+    max-width: 185px;
 }
 .bg-light{
     background-color: #f2f2f2!important
@@ -276,7 +281,7 @@ div#v-pills-tab p {
 .paddLeft{
     padding-left: 1.25rem;
 }
-.subCategoryList{
+.productList{
     display: unset;
 }
 .card-text{
@@ -286,6 +291,10 @@ div#v-pills-tab p {
 }
 .copyright-text{
     font-size: 0.625rem;
+}
+.Specification{
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
 .dimgreybold{
     font-weight: bold;
@@ -433,13 +442,13 @@ span.skew{
   }
   .cardHead{
       line-height: 1.0;
-      font-size: 0.8rem !important;
+      font-size: 0.9rem !important;
       color: #046682;
   }
   .card{
       border:0px !important;
   }
-  .subCategory.active:after{
+  .product-item.active:after{
     content: "";
     float: right;
     border: 6px solid transparent;
@@ -552,6 +561,63 @@ a.footerlogo{
     /* bg color = bg color under block */
     background: white;
   }
+  .selectdiv:after {
+    content: '\f078';
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 6px;
+    height: 34px;
+    padding: 15px 0px 0px 8px;
+    border-left: 1px solid #0ebeff;
+    position: absolute;
+    pointer-events: none;
+}
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #0ebeff;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -54,12 +54,20 @@
     <div class="container-fluid p-0">
         <div class="card">
             <div class="card-header card-header-panel ribbon">
-              <a class="card-link colorBlack jQrotate" data-toggle="collapse" href="#collapseOne">
+              <!-- <a class="card-link colorBlack jQrotate" >
                 Mercury Outboard Motor
-                <i class="fa fa-chevron-circle-right rotate rotateIcon font-1-rem" aria-hidden="true"></i>
-              </a>
+                <i class="fa fa-chevron-circle-right rotate rotateIcon down font-1-rem" aria-hidden="true"></i>
+              </a> -->
+
+              <select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+
             </div>
-            <div id="collapseOne" class="collapse paddLeft backgroundGreen"><!--Add show class-->
+            <div id="collapseOne" class="collapse show paddLeft backgroundGreen"><!--Add show class-->
                 <div class="btn-group btn-group-toggle backgroundGreen w-100 flex-wrap" data-toggle="buttons">
                     <label class="btn btn-theme active">
                       <input type="radio" name="options" id="option1" autocomplete="off" checked> Seapro 4 Stroke
@@ -88,19 +96,19 @@
     <div class="container-fluid">
         <div class="row body">
             <!-- Products List Links in left Side -->
-            <div class="col-md-3 col-lg-2">
-                <div class="nav flex-column nav-pills subCategoryList" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link subCategory active" id="v-pills-300-hp-cms-tab" data-toggle="pill" href="#v-pills-300-hp-cms" role="tab" aria-controls="v-pills-300-hp-cms" aria-selected="true">300HP CMS</a>
-                    <a class="nav-link subCategory" id="v-pills-250-hp-tab"  data-toggle="pill" href="#v-pills-250-hp"  role="tab" aria-controls="v-pills-250-hp"  aria-selected="false">250HP</a>
-                    <a class="nav-link subCategory" id="v-pills-225-hp-tab" data-toggle="pill" href="#v-pills-225-hp" role="tab" aria-controls="v-pills-225-hp" aria-selected="false">225HP</a>
-                    <a class="nav-link subCategory" id="v-pills-200-hp-tab" data-toggle="pill" href="#v-pills-200-hp" role="tab" aria-controls="v-pills-200-hp" aria-selected="false">200HP</a>
-                    <a class="nav-link subCategory" id="v-pills-150-hp-tab" data-toggle="pill" href="#v-pills-150-hp" role="tab" aria-controls="v-pills-150-hp" aria-selected="false">150HP</a>
-                    <a class="nav-link subCategory" id="v-pills-115-hp-tab" data-toggle="pill" href="#v-pills-115-hp" role="tab" aria-controls="v-pills-115-hp" aria-selected="false">115HP</a>
-                    <a class="nav-link subCategory" id="v-pills-90-hp-tab" data-toggle="pill" href="#v-pills-90-hp" role="tab" aria-controls="v-pills-90-hp" aria-selected="false">90HP</a>
-                    <a class="nav-link subCategory" id="v-pills-75-hp-tab" data-toggle="pill" href="#v-pills-75-hp" role="tab" aria-controls="v-pills-75-hp" aria-selected="false">75HP</a>
-                    <a class="nav-link subCategory" id="v-pills-60-hp-tab" data-toggle="pill" href="#v-pills-60-hp" role="tab" aria-controls="v-pills-60-hp" aria-selected="false">60HP</a>
-                    <a class="nav-link subCategory" id="v-pills-40-hp-tab" data-toggle="pill" href="#v-pills-40-hp" role="tab" aria-controls="v-pills-40-hp" aria-selected="false">40HP</a>
-                    <a class="nav-link subCategory" id="v-pills-15-hp-tab" data-toggle="pill" href="#v-pills-15-hp" role="tab" aria-controls="v-pills-15-hp" aria-selected="false">15HP</a>
+            <div class="col-md-3 col-lg-2 productList-col">
+                <div class="nav flex-column nav-pills productList" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link product-item active" id="v-pills-300-hp-cms-tab" data-toggle="pill" href="#v-pills-300-hp-cms" role="tab" aria-controls="v-pills-300-hp-cms" aria-selected="true">300HP CMS</a>
+                    <a class="nav-link product-item" id="v-pills-250-hp-tab"  data-toggle="pill" href="#v-pills-250-hp"  role="tab" aria-controls="v-pills-250-hp"  aria-selected="false">250HP</a>
+                    <a class="nav-link product-item" id="v-pills-225-hp-tab" data-toggle="pill" href="#v-pills-225-hp" role="tab" aria-controls="v-pills-225-hp" aria-selected="false">225HP</a>
+                    <a class="nav-link product-item" id="v-pills-200-hp-tab" data-toggle="pill" href="#v-pills-200-hp" role="tab" aria-controls="v-pills-200-hp" aria-selected="false">200HP</a>
+                    <a class="nav-link product-item" id="v-pills-150-hp-tab" data-toggle="pill" href="#v-pills-150-hp" role="tab" aria-controls="v-pills-150-hp" aria-selected="false">150HP</a>
+                    <a class="nav-link product-item" id="v-pills-115-hp-tab" data-toggle="pill" href="#v-pills-115-hp" role="tab" aria-controls="v-pills-115-hp" aria-selected="false">115HP</a>
+                    <a class="nav-link product-item" id="v-pills-90-hp-tab" data-toggle="pill" href="#v-pills-90-hp" role="tab" aria-controls="v-pills-90-hp" aria-selected="false">90HP</a>
+                    <a class="nav-link product-item" id="v-pills-75-hp-tab" data-toggle="pill" href="#v-pills-75-hp" role="tab" aria-controls="v-pills-75-hp" aria-selected="false">75HP</a>
+                    <a class="nav-link product-item" id="v-pills-60-hp-tab" data-toggle="pill" href="#v-pills-60-hp" role="tab" aria-controls="v-pills-60-hp" aria-selected="false">60HP</a>
+                    <a class="nav-link product-item" id="v-pills-40-hp-tab" data-toggle="pill" href="#v-pills-40-hp" role="tab" aria-controls="v-pills-40-hp" aria-selected="false">40HP</a>
+                    <a class="nav-link product-item" id="v-pills-15-hp-tab" data-toggle="pill" href="#v-pills-15-hp" role="tab" aria-controls="v-pills-15-hp" aria-selected="false">15HP</a>
                 </div>
             </div>
 
@@ -109,7 +117,7 @@
                 <div class="tab-pane fade show active" id="v-pills-300-hp-cms" role="tabpanel" aria-labelledby="v-pills-300-hp-cms-tab">
                     <div class="row">
                         <!-- Product Specification -->
-                        <div class="col-8">
+                        <div class="col-8 Specification">
                             <h3 class="productTitle"> Seapro 4 Stroke</h3>
                             <div class="card description">
                                 <div class="card-header ">Engine Details</div>
