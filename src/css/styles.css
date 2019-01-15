@@ -190,6 +190,9 @@ div.downloadPDF input[type=text] {
     background-color: white;
     padding: 0.05rem 1.25rem;
 }
+.btn{
+    padding: 0.575rem 0.95rem;
+}
 .btn-catalog{
     color: #fff;
     background-color: #0071bd;
