@@ -215,7 +215,7 @@ button.btn.btn-catalog:active {
 }
 .categoryWrapper{
     
-    margin-top: 66px;
+    margin-top: 55px;
 }
 .dealerList{
     overflow: scroll;
@@ -348,7 +348,8 @@ a.headerLogo{
     padding-left: 1rem;
 }
 .fixed-head-nav{
-    /* padding: 0rem 1rem; */
+    padding: 0rem 1rem;
+    font-weight: 600;
 }
 .fixed-head-nav .nav-item.page-active{
     border-bottom: 4px solid #046682;
@@ -364,6 +365,9 @@ a.list-group-item::after {
     opacity: 1;
     background: #046682;
     transform: skewX(-40deg);
+}
+.categoryWrapper .card{
+    padding-top: 10px;
 }
 span.skew{
     color: #fff;
@@ -530,14 +534,17 @@ a.footerlogo{
 .right-side-menu{
     font-weight: 600;
 }
-
+.selectCategory{
+    font-weight: 600;
+}
 
 
 select {
 
     /* styling */
     background-color: white;
-    border: thin solid blue;
+    /* border: thin solid blue; */
+    border: 0px;
     border-radius: 4px;
     display: inline-block;
     font: inherit;
@@ -557,7 +564,7 @@ select {
   select.round {
     background-image: linear-gradient(45deg, transparent 50%, #fff 50%),
       linear-gradient(135deg, #fff 50%, transparent 50%),
-      radial-gradient(#034251 70%, transparent 72%);
+      radial-gradient(#006380 70%, transparent 72%);
     background-position:
       calc(100% - 20px) calc(1em + 2px),
       calc(100% - 15px) calc(1em + 2px),
