@@ -22,6 +22,16 @@ span.contact .fa {
     color: white;
 
 }
+.specTableCardHead{
+     
+}
+.Specification .card-header {
+    font-size: 1.3rem;
+    color: white;
+    background: #006380;
+    font-weight: 600;
+    font-style: oblique;
+}
 .font-1-rem{
     font-size: 1rem !important;
 }
