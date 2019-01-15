@@ -169,17 +169,22 @@ div.downloadPDF input[type=text] {
 }
 .btn-theme{
     background-color: #006380;
-    border-color: black;
+    /* border-color: black; */
     color: #fff;
-    /* border-right: 1px solid black; */
+    border-right: 1px solid black;
 }
 .btn-theme.active{
-    background: #034251;
+    background-color: #034251 !important;
     box-shadow: 0px 0px 5px #034251;
     font-weight: 600;
 }
 .description{
 
+
+}
+
+.nav-pills .nav-link.category{
+    border-radius: 0px;
 }
 .item-card-group .card-body {
     padding-left: 0.5rem;
@@ -192,6 +197,9 @@ div.downloadPDF input[type=text] {
 }
 .btn{
     padding: 0.575rem 0.95rem;
+}
+.nav-link.category{
+    color:#fff !important;
 }
 .btn-catalog{
     color: #fff;
@@ -366,7 +374,7 @@ a.list-group-item::after {
     background: #046682;
     transform: skewX(-40deg);
 }
-.categoryWrapper .card{
+.padTop{
     padding-top: 10px;
 }
 span.skew{
