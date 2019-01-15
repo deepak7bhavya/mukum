@@ -213,6 +213,10 @@ button.btn.btn-catalog:active {
 .description .card-body {
     /* font-size: 1rem; */
 }
+.categoryWrapper{
+    
+    margin-top: 66px;
+}
 .dealerList{
     overflow: scroll;
     max-height: -webkit-fill-available;
@@ -282,7 +286,7 @@ div#v-pills-tab p {
     max-height: 200px;
 }
 .paddLeft{
-    padding-left: 1.25rem;
+    padding-left: 2.15rem;
 }
 .productList{
     display: unset;
@@ -293,7 +297,7 @@ div#v-pills-tab p {
     overflow: hidden;
 }
 .copyright-text{
-    font-size: 0.625rem;
+    font-size: 1rem;
 }
 .Specification{
     padding-left: 0rem;
@@ -340,10 +344,11 @@ a.headerLogo{
     color: #006380;
 }
 #footerlogo{
-    padding: 0px !important;
+    /* padding: 0px !important; */
+    padding-left: 1rem;
 }
 .fixed-head-nav{
-    padding: 0rem 1rem;
+    /* padding: 0rem 1rem; */
 }
 .fixed-head-nav .nav-item.page-active{
     border-bottom: 4px solid #046682;
@@ -522,90 +527,68 @@ a.footerlogo{
     background: transparent;
 }
 
-
-/* styles for '...' */ 
-.block-with-text {
-    /* hide text if it more than N lines  */
-    overflow: hidden;
-    /* for set '...' in absolute position */
-    position: relative; 
-    /* use this value to count block height */
-    line-height: 1.2em;
-    /* max-height = line-height (1.2) * lines max number (5) */
-    max-height: 6.0em; 
-    /* fix problem when last visible word doesn't adjoin right side  */
-    text-align: justify;  
-    /* place for '...' */
-    margin-right: -1em;
-    padding-right: 1em;
-  }
-  /* create the ... */
-  .block-with-text:before {
-    /* points in the end */
-    content: '...';
-    /* absolute position */
-    position: absolute;
-    /* set position to right bottom corner of block */
-    right: 0;
-    bottom: 0;
-  }
-  /* hide ... if we have text, which is less than or equal to max lines */
-  .block-with-text:after {
-    /* points in the end */
-    content: '';
-    /* absolute position */
-    position: absolute;
-    /* set position to right bottom corner of text */
-    right: 0;
-    /* set width and height */
-    width: 1em;
-    height: 1em;
-    margin-top: 0.2em;
-    /* bg color = bg color under block */
-    background: white;
-  }
-  .selectdiv:after {
-    content: '\f078';
-    font: normal normal normal 17px/1 FontAwesome;
-    color: #0ebeff;
-    right: 11px;
-    top: 6px;
-    height: 34px;
-    padding: 15px 0px 0px 8px;
-    border-left: 1px solid #0ebeff;
-    position: absolute;
-    pointer-events: none;
+.right-side-menu{
+    font-weight: 600;
 }
 
-/* IE11 hide native button (thanks Matt!) */
-select::-ms-expand {
-display: none;
-}
 
-.selectdiv select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* Add some styling */
+
+select {
+
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
   
-  display: block;
-  width: 100%;
-  max-width: 320px;
-  height: 50px;
-  float: right;
-  margin: 5px 0px;
-  padding: 0px 24px;
-  font-size: 16px;
-  line-height: 1.75;
-  color: #333;
-  background-color: #ffffff;
-  background-image: none;
-  border: 1px solid #0ebeff;
-  -ms-word-break: normal;
-  word-break: normal;
-}
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
 
-
+  select.round {
+    background-image: linear-gradient(45deg, transparent 50%, #fff 50%),
+      linear-gradient(135deg, #fff 50%, transparent 50%),
+      radial-gradient(#034251 70%, transparent 72%);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+  }
+  
+  /* select.round:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      radial-gradient(gray 70%, transparent 72%);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+  }
+   */
+  
+  
 
 
 
@@ -652,8 +635,12 @@ Media Queries for Carousel
     }
 }
 /* Ipad portrait */
-/* @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .lessHeight{
-        max-height: 600px;
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
+/*LargeDevices:*/
+@media only screen and (min-width:1025px){
+    .logo {
+        max-width: 16rem;
     }
-} */
+}

@@ -22,14 +22,14 @@
     </body>
 
     <!--Header Navigation -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class=" container-fluid"><!-- src/assets/logo.png-->
                 <a class="navbar-brand headerLogo" href="../index.html"><img class="headerLogo logo"  src="../src/assets/logo/new/MK logo.svg" ></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="collapse navbar-collapse right-side-menu" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/Find-a-dealer.htm">Find A Dealer</a>
@@ -51,19 +51,18 @@
 
 
     <!-- Panel for Category BUtton Group -->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 categoryWrapper">
         <div class="card">
-            <div class="card-header card-header-panel ribbon">
+            <div class="card-header card-header-panel ribbon paddLeft">
               <!-- <a class="card-link colorBlack jQrotate" >
                 Mercury Outboard Motor
                 <i class="fa fa-chevron-circle-right rotate rotateIcon down font-1-rem" aria-hidden="true"></i>
               </a> -->
 
-              <select>
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="opel">Opel</option>
-                <option value="audi">Audi</option>
+              <select class="round">
+                <option>CSS SELECT arrow (round)</option>
+                <option>No external background image</option>
+                <option>No wrapper</option>
               </select>
 
             </div>
@@ -96,7 +95,7 @@
     <div class="container-fluid">
         <div class="row body">
             <!-- Products List Links in left Side -->
-            <div class="col-md-3 col-lg-2 productList-col">
+            <div class="col-md-3 col-lg-2 productList-col paddLeft">
                 <div class="nav flex-column nav-pills productList" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link product-item active" id="v-pills-300-hp-cms-tab" data-toggle="pill" href="#v-pills-300-hp-cms" role="tab" aria-controls="v-pills-300-hp-cms" aria-selected="true">300HP CMS</a>
                     <a class="nav-link product-item" id="v-pills-250-hp-tab"  data-toggle="pill" href="#v-pills-250-hp"  role="tab" aria-controls="v-pills-250-hp"  aria-selected="false">250HP</a>
@@ -117,7 +116,7 @@
                 <div class="tab-pane fade show active" id="v-pills-300-hp-cms" role="tabpanel" aria-labelledby="v-pills-300-hp-cms-tab">
                     <div class="row">
                         <!-- Product Specification -->
-                        <div class="col-8 Specification">
+                        <div class="col-9 Specification">
                             <h3 class="productTitle"> Seapro 4 Stroke</h3>
                             <div class="card description">
                                 <div class="card-header ">Engine Details</div>
@@ -432,7 +431,7 @@
                             </div>
                         </div>
                         <!-- Product Image Carousel -->
-                        <div class="col-4">
+                        <div class="col-3">
                             <div id="my-carousel-detail" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li class="active" data-target="#my-carousel-detail" data-slide-to="0"></li>
