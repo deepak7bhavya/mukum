@@ -25,6 +25,12 @@ span.contact .fa {
 .specTableCardHead{
      
 }
+.clipboard{
+    width: 23px;
+    margin-right: 4px;
+    margin-left: -3px;
+    margin-top: -8px;
+}
 .fa.headerCog {
     border-radius: 10px;
     padding: 0px;
