@@ -25,6 +25,15 @@ span.contact .fa {
 .specTableCardHead{
      
 }
+.fa.headerCog {
+    border-radius: 10px;
+    padding: 0px;
+    font-size: 21px;
+    width: 25px;
+    text-align: unset;
+    text-decoration: none;
+    margin: 0px 0px;
+}
 .Specification .card-header {
     font-size: 1.3rem;
     color: white;
