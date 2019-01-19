@@ -193,8 +193,60 @@ div.downloadPDF input[type=text] {
 .logo{
     max-width: 12rem;
 }
+.comp-name{
+    font-weight: 300;
+}
+p.contact-address{
+    
+}
+.forms-and-Contact-wrapper h4,
+.forms-and-Contact-wrapper h6{
+    padding-left: 1rem;
+    font-weight: 300;
+}
+div.contact-address{
+    padding-left: 45px;
+    text-indent: -28px;
+}
+i.contact-address{
+    margin-right: -14px;
+    padding: 0px;
+}
 .lightgrey{
     background-color: #f2f2f2!important;
+}
+.contact-us-form{
+    
+}
+div.contact-address span {
+    font-size: 15px;
+}
+.contact-us-map-wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 65px;
+}
+.forms-and-Contact-row{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+button.btn.btn-success.btn-send.float-right {
+    padding: 0.575rem 4.0rem;
+    border-radius: 0px;
+}
+ 
+.contact-us-form input{
+    border-radius: 0px;
+}
+.contact-us-form textarea{
+    border-radius: 0px;
+}
+.forms-and-Contact-wrapper{
+    padding-top: 76px;
+    color: white;
+}
+.contact-address-column{
+    padding-bottom: 1rem;
 }
 .btn-theme{
     background-color: #006380;
