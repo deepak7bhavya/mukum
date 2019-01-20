@@ -5,13 +5,13 @@ background-color: #b2ebf2b0;
 */
 
 span.contact {
-    background: #0093ffa3;
+    background: #8edaf4;
     color: white;
     padding: 7px;
     border-radius: 16px;
 }
 span.contact .fa {
-    background: #007bff;
+    background: #0071bd;
     border-radius: 50%;
     position: relative;
     left: -10px;
@@ -20,10 +20,18 @@ span.contact .fa {
 .catalog{
     background: #4d4d4d;
     color: white;
+    padding-left: 40px;
 
 }
 .specTableCardHead{
      
+}
+.Maintainence.section {
+    padding-left: 28px;
+}
+.blacktext{
+    color: black;
+    font-weight: bold;
 }
 .clipboard{
     width: 23px;
@@ -87,7 +95,7 @@ div.downloadPDF input[type=text] {
     pointer-events: none;
     padding: 11px;
     font-size: 14px;
-    border: 1px solid grey;
+    border: 1px solid #4d4d4d;
     float: left;
     width: 80%;
     background: #4d4d4d;
@@ -132,25 +140,25 @@ div.downloadPDF input[type=text] {
     position: relative;
   }
   .img-one{
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     padding: 0px;
-    border: 0.25rem solid #0071bd;
+    border: 0.5rem solid #0071bd;
   }
   .img-two{
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 10px;
     padding: 0px;
-    border: 0.25rem solid orange;
+    border: 0.5rem solid orange;
   }
   .img-three{
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 20px;
     padding: 0px;
-    border: 0.25rem solid #0071bd;
+    border: 0.5rem solid #0071bd;
   }
   /* .square {
     position: relative;
@@ -169,6 +177,7 @@ div.downloadPDF input[type=text] {
     height: 250px;
     width: 250px;
     object-fit: cover;
+    border-radius: 25px;
   }
   div.downloadPDF::after {
     content: "";
@@ -182,6 +191,7 @@ div.downloadPDF input[type=text] {
 .Service{
     background: white;
     padding-top: 15px;
+    padding-left: 40px;
 }
 
 .nav-link-color{
@@ -287,6 +297,7 @@ button.btn.btn-success.btn-send.float-right {
     background-color: #0071bd;
     border-color: #0071bd;
     border-radius: 0.35rem !important;
+    box-shadow: 5px 5px 10px #0c557c;
 }
 .card-link.rotateIcon{
     color:black !important;
@@ -733,6 +744,24 @@ Media Queries for Carousel
     .lessHeight{
         max-height: 300px;
     }
+    .imagecollage{
+        height: 500px;;
+    }
+    .img-two {
+        position: relative;
+        top: -220px;
+        left: 210px;
+        padding: 0px;
+        border: 0.5rem solid orange;
+    }
+    .img-three {
+        position: relative;
+        top: -280px;
+        left: 41px;
+        padding: 0px;
+        border: 0.5rem solid #0071bd;
+    }
+
 }
 /* Ipad portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -742,5 +771,45 @@ Media Queries for Carousel
 @media only screen and (min-width:1025px){
     .logo {
         max-width: 16rem;
+    }
+}
+/* Large Device FULL HD */
+@media only screen and (min-width:1144px){
+    .imagecollage{
+        height: 500px !important;
+    }
+    .img-two {
+        position: relative;
+        top: 28px;
+        left: -47px;
+        padding: 0px;
+        border: 0.5rem solid orange;
+    }
+    .img-three {
+        position: relative;
+        top: -40px;
+        left: 20px;
+        padding: 0px;
+        border: 0.5rem solid #0071bd;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1143px){
+    .imagecollage{
+        height: 500px !important;
+        
+    }
+    .img-two {
+        position: relative;
+        top: -217px;
+        left: 211px;
+        padding: 0px;
+        border: 0.5rem solid orange;
+    }
+    .img-three {
+        position: relative;
+        top: -296px;
+        left: 42px;
+        padding: 0px;
+        border: 0.5rem solid #0071bd;
     }
 }
