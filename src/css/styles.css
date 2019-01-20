@@ -54,10 +54,18 @@ span.contact .fa {
     background: #006380;
     font-weight: 600;
     font-style: oblique;
-    background: url(../assets/icon/label.svg);
-    background-repeat: no-repeat;
+    
+    
     background-color: #f2f2f2!important;
     border: 0px;
+}
+.Specification .engine-details{
+    background: url(../assets/icon/label.svg);
+    background-repeat: no-repeat;
+}
+.Specification .specTableCardHead{
+    background: url(../assets/icon/label-long.svg);
+    background-repeat: no-repeat;
 }
 .font-1-rem{
     font-size: 1rem !important;
@@ -184,10 +192,7 @@ div.downloadPDF input[type=text] {
     clear: both;
     display: table;
   }
- /*  .downloadSVG{
-      background: url(../assets/icon/baseline-get_app-24px.svg);
-      
-  } */
+
 .Service{
     background: white;
     padding-top: 15px;
