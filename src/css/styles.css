@@ -26,6 +26,36 @@ span.contact .fa {
 .specTableCardHead{
      
 }
+.form-signin-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #006382;
+    height: inherit;
+
+}
+form.form-signin .form-control {
+    margin-bottom: 2px !important;
+}
+.signin-btn{
+    background-color: #006380;
+    color: white;
+}
+.login-logo{
+    max-width: 100%;
+    margin-left: -54px;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 25px #f2f2f2;
+}
 .Maintainence.section {
     padding-left: 28px;
 }
@@ -54,10 +84,12 @@ span.contact .fa {
     background: #006380;
     font-weight: 600;
     font-style: oblique;
-    
-    
     background-color: #f2f2f2!important;
     border: 0px;
+}
+.description>.card-header {
+    background: url(../assets/icon/label.svg);
+    background-repeat: no-repeat;
 }
 .Specification .engine-details{
     background: url(../assets/icon/label.svg);
