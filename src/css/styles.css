@@ -26,6 +26,47 @@ span.contact .fa {
 .specTableCardHead{
      
 }
+.dashboard-body{
+    /* padding-top: 75px; */
+    
+}
+.dash-sidemenu-wrapper{
+
+}
+.dash-tab-content-wrapper{
+
+}
+.sidemenuList .nav-link.active{
+    background: #006380 !important;
+    color: white !important;
+    border-radius: 0rem !important;
+    font-weight: 600;
+}
+.fileUploadForm{
+
+}
+.welcomeBody{
+    padding-top: 50px;
+}
+.fileUploadForm .form-group.custom-file{
+    margin-bottom: 1rem;
+}
+.menu-item.active:after {
+    content: "";
+    float: right;
+    border: 6px solid transparent;
+    border-left: 6px solid whitesmoke;
+    margin: 3px -1em 0 0;
+}
+.sidemenuList .nav-link {
+    color: #006380 !important;
+    background: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-bottom: 1px;
+    border-radius: 0rem !important;
+}
+
 .form-signin-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -676,8 +717,15 @@ a.footerlogo{
 .selectCategory{
     font-weight: 600;
 }
-
-
+.submitBtn{
+    font-weight: 600;
+}
+.browse-btn:after{
+    background-color: #006380;
+    color: #fff;
+    font-weight: 500;
+    height: 2.30rem;
+}
 select {
 
     /* styling */
