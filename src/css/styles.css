@@ -25,6 +25,7 @@ span.contact .fa {
 }
 .homepage-tile{
     cursor: pointer;
+    
 }
 .fade {
     transition: opacity .25s cubic-bezier(1,.23,.62,1) ;
