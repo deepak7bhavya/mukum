@@ -23,6 +23,9 @@ span.contact .fa {
     padding-left: 40px;
 
 }
+.homepage-tile{
+    cursor: pointer;
+}
 #moveToTop {
     display: none;
     position: fixed;
