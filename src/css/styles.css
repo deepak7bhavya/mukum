@@ -16,6 +16,7 @@ span.contact .fa {
     position: relative;
     left: -10px;
     top: -3px;
+    padding: 10px;
 }
 .catalog{
     background: #4d4d4d;
@@ -25,7 +26,7 @@ span.contact .fa {
 }
 .homepage-tile{
     cursor: pointer;
-    
+
 }
 .fade {
     transition: opacity .25s cubic-bezier(1,.23,.62,1) ;
