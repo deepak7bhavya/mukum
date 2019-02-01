@@ -26,6 +26,10 @@ span.contact .fa {
 .homepage-tile{
     cursor: pointer;
 }
+.fade {
+    transition: opacity .25s cubic-bezier(1,.23,.62,1) ;
+    transition-delay: 500ms ;
+}
 #moveToTop {
     display: none;
     position: fixed;
