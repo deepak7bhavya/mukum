@@ -27,6 +27,9 @@ span.contact .fa {
 .parts-tile .card-title{
     color: #046682;
 }
+.parts-tile .card-text {
+    font-size: 1rem;
+}
 .card.parts-tile {
     margin-bottom: 40px;
 }
@@ -40,15 +43,16 @@ span.contact .fa {
 }
 .section-head {
     font-weight: 600;
+    font-size: larger;
     color: white;
     border-bottom: 0px;
     background: url(../assets/icon/label.svg);
     background-repeat: no-repeat;
-    background-size: 99%;
+    background-size: 70%;
     background-color: #f2f2f2!important;
 }
 .stylishpara{
-
+    text-shadow: red 1px 1px 2px, blue 0px 0px 1em, blue 0px 0px 0.2em;
 }
 .section-2{
     
