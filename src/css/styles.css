@@ -18,6 +18,37 @@ span.contact .fa {
     top: -3px;
     padding: 10px;
 }
+.section-1{
+    
+}
+.section-1 .description-parts{
+
+}
+.parts-tiles{
+
+}
+.part-img{
+    max-width: 50%;
+    margin: auto;
+}
+.description-parts .card-header {
+    font-weight: 600;
+    color: white;
+    border-bottom: 0px;
+    background: url(../assets/icon/label.svg);
+    background-repeat: no-repeat;
+    background-size: 99%;
+    background-color: #f2f2f2!important;
+}
+.stylishpara{
+
+}
+.section-2{
+    
+}
+.section-3{
+    
+}
 .catalog{
     background: #4d4d4d;
     color: white;
