@@ -27,6 +27,12 @@ span.contact .fa {
 .parts-tiles{
 
 }
+.card.parts {
+    margin-bottom: 40px;
+}
+.round.selectCategory.disabled{
+    background-image: none;
+}
 .part-img{
     max-width: 50%;
     margin: auto;
@@ -950,7 +956,11 @@ Media Queries for Carousel
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+    .description-parts .card-header{
+        background: none;
+    }
+}
 
 /* Ipad landscape */
 @media only screen and (max-width: 1024px) {
