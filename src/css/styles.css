@@ -24,18 +24,21 @@ span.contact .fa {
 .section-1 .description-parts{
 
 }
-.parts-tiles{
-
+.parts-tile .card-title{
+    color: #046682;
 }
-.card.parts {
+.card.parts-tile {
     margin-bottom: 40px;
 }
-
+.btn-green{
+    background-color: #006380;
+    color: white;
+}
 .part-img{
     max-width: 50%;
     margin: auto;
 }
-.description-parts .card-header {
+.section-head {
     font-weight: 600;
     color: white;
     border-bottom: 0px;
@@ -131,7 +134,11 @@ span.contact .fa {
     margin-bottom: 1px;
     border-radius: 0rem !important;
 }
-
+.parts-n-accessories-title{
+    /* IPAD LANDSCAPE and larger */
+    /* background: green;  */
+    
+}
 .form-signin-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -944,9 +951,14 @@ Media Queries for Carousel
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
     /* This works fine in iphone x and ipad portrait*/
-    .description-parts .card-header,.description>.card-header,.Specification .specTableCardHead{
+    .section-head,.description>.card-header,.Specification .specTableCardHead{
         background: none;
         background-color: #006380 !important;
+    }
+    .parts-n-accessories-title{
+        /* Specially For IphoneX Landscape and Ipad Portrait */
+        /* background: yellow; */
+        padding-top: 20px;
     }
 }
 
@@ -954,7 +966,13 @@ Media Queries for Carousel
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    /*Specially for iPhone X PORTRAIT */
+    .parts-n-accessories-title{
+        /* background: red; */
+        padding-top: 45px;
+    }
+}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
