@@ -30,9 +30,7 @@ span.contact .fa {
 .card.parts {
     margin-bottom: 40px;
 }
-.round.selectCategory.disabled{
-    background-image: none;
-}
+
 .part-img{
     max-width: 50%;
     margin: auto;
@@ -944,7 +942,13 @@ Media Queries for Carousel
 */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 959px) {
+    /* This works fine in iphone x and ipad portrait*/
+    .description-parts .card-header,.description>.card-header,.Specification .specTableCardHead{
+        background: none;
+        background-color: #006380 !important;
+    }
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
@@ -988,7 +992,9 @@ Media Queries for Carousel
 }
 /* Ipad portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    
+    .description-parts .card-header{
+        background: none;
+    }
 }
 /*LargeDevices:*/
 @media only screen and (min-width:1025px){
