@@ -32,6 +32,7 @@ span.contact .fa {
 }
 .card.parts-tile {
     margin-bottom: 40px;
+    background-color: inherit;
 }
 .btn-green{
     background-color: #006380;
@@ -40,6 +41,8 @@ span.contact .fa {
 .part-img{
     max-width: 50%;
     margin: auto;
+    padding-bottom: 5px;
+    padding-top: 15px;
 }
 .section-head {
     font-weight: 600;
@@ -52,13 +55,21 @@ span.contact .fa {
     background-color: #f2f2f2!important;
 }
 .stylishpara{
-    text-shadow: red 1px 1px 2px, blue 0px 0px 1em, blue 0px 0px 0.2em;
+    /*text-shadow: red 1px 1px 2px, blue 0px 0px 1em, blue 0px 0px 0.2em;*/
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: darkslategray;
+    margin-bottom: 1.2em;
 }
 .section-2{
-    
+    padding-bottom: 50px;
 }
 .section-3{
     padding-bottom: 50px;
+}
+.parts-tiles-row{
+    padding-top: 1.25em;
 }
 .catalog{
     background: #4d4d4d;
