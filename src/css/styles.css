@@ -603,7 +603,7 @@ a.headerLogo{
   }
 .cardImage{
     width: 100%;
-    height: 100%;
+    height: -webkit-fill-available;
     padding: 2px;
     background: white;
     object-fit: contain;
