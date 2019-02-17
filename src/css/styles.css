@@ -32,18 +32,31 @@ span.contact .fa {
 }
 .card.parts-tile {
     margin-bottom: 40px;
-    background-color: inherit;
+    /* background-color: inherit; */
 }
 .btn-green{
     background-color: #006380;
     color: white;
 }
-.part-img{
+.lubric-img{
     max-width: 50%;
     margin: auto;
     padding-bottom: 5px;
     padding-top: 15px;
-    min-height: 400px;
+    /* min-height: 400px; */
+    height: 300px;
+}
+.prop-img{
+    /* max-width: 50%; */
+    margin: auto;
+    object-fit: fill;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    /* min-height: 400px; */
+    /* height: 300px; */
+}
+.subhead{
+
 }
 .section-head {
     font-weight: 600;
