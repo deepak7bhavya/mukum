@@ -32,4 +32,7 @@ $(document).ready(function(){
         behavior: 'smooth' 
       });
   });
+  $(".download").click(function(){
+    window.print();
+  })
 });

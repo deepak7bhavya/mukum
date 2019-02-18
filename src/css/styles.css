@@ -1134,4 +1134,7 @@ Media Queries for Carousel
         display: block;
         position: relative;
     }
+    .download{
+        display: none;
+    }
 }
