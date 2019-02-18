@@ -1096,3 +1096,42 @@ Media Queries for Carousel
         border: 0.5rem solid #0071bd;
     }
 }
+
+
+
+/* ------------ PRINT MEDIA CSS ------------ */
+
+@media print {
+    /* RUles HERE */
+
+
+    p.bodyText {font-family:georgia, times, serif;}
+
+    .productList-col{
+        display: none;
+    }
+    .tab-content.col-md-9.col-lg-10{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .carousel.slide{
+        display: none;
+    }
+    .col-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .brandWrapper{
+        display: none;
+    }
+    .subcategory{
+        display: none;
+    }
+    .categoryWrapper {
+        margin-top: 0px;
+    }
+    .navbar{
+        display: block;
+        position: relative;
+    }
+}
