@@ -38,6 +38,9 @@ span.contact .fa {
     background-color: #006380;
     color: white;
 }
+.Displays h4{
+    font-size: 1.4rem;
+}
 .lubric-img{
     max-width: 50%;
     margin: auto;
@@ -49,14 +52,15 @@ span.contact .fa {
 .prop-img{
     /* max-width: 50%; */
     margin: auto;
-    object-fit: fill;
+    object-fit: none;
     padding-bottom: 5px;
     padding-top: 15px;
     /* min-height: 400px; */
     /* height: 300px; */
 }
 .subhead{
-
+    font-style: oblique;
+    text-decoration: underline;
 }
 .section-head {
     font-weight: 600;
