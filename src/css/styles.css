@@ -893,7 +893,7 @@ select {
         padding-bottom: 10px;
     }
     .subcategory {
-        position: fixed;
+        position: sticky;
         width: 100%;
         top: 113px;
         z-index: 2;
