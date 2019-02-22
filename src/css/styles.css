@@ -21,7 +21,9 @@ span.contact .fa {
 .section-1{
     
 }
-.carousel-control-prev,.carousel-control-next,.carousel-indicators{
+.col-3 .carousel-control-prev,
+.col-3 .carousel-control-next,
+.col-3 .carousel-indicators{
     display: none;
 }
 .section-1 .description-parts{

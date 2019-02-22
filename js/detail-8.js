@@ -24,7 +24,7 @@ function topFunction() {
 }
 
 $(document).ready(function(){  
-  $('.carousel').carousel({
+  $('.col-3 .carousel').carousel({
     interval:false
   });
 
