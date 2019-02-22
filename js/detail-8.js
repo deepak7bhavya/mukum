@@ -32,7 +32,22 @@ $(document).ready(function(){
         behavior: 'smooth' 
       });
   });
+  $(".category").click(function(){
+    
+    window.scroll({ 
+      top: 0,
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  });
   $(".download").click(function(){
     window.print();
-  })
+  });
+  $("#my-carousel-detail-300-hp-cms").removeClass();
+  /*This is For stopping the carousel movement
+  Please Remove the Following CSS Form Style.css
+  .carousel-control-prev,.carousel-control-next,.carousel-indicators{
+    display: none;
+  }
+  */
 });

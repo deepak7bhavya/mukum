@@ -21,6 +21,9 @@ span.contact .fa {
 .section-1{
     
 }
+.carousel-control-prev,.carousel-control-next,.carousel-indicators{
+    display: none;
+}
 .section-1 .description-parts{
 
 }
@@ -178,6 +181,8 @@ a[href$="Find-a-dealer.htm"],a[href$="service-n-support.htm"] {
 .parts-n-accessories-title{
     /* IPAD LANDSCAPE and larger */
     /* background: green;  */
+    text-align: center;
+
     
 }
 .form-signin-wrapper {
@@ -1001,6 +1006,7 @@ Media Queries for Carousel
         /* Specially For IphoneX Landscape and Ipad Portrait */
         /* background: yellow; */
         padding-top: 20px;
+        
     }
 }
 
