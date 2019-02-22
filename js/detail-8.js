@@ -23,7 +23,11 @@ function topFunction() {
   });
 }
 
-$(document).ready(function(){
+$(document).ready(function(){  
+  $('.carousel').carousel({
+    interval:false
+  });
+
   $(".productList").click(function(){
     
       window.scroll({ 
@@ -43,7 +47,7 @@ $(document).ready(function(){
   $(".download").click(function(){
     window.print();
   });
-  $("#my-carousel-detail-300-hp-cms").removeClass();
+  //$("#my-carousel-detail-300-hp-cms").removeClass();
   /*This is For stopping the carousel movement
   Please Remove the Following CSS Form Style.css
   .carousel-control-prev,.carousel-control-next,.carousel-indicators{
