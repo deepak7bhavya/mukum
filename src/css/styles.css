@@ -24,6 +24,9 @@ span.contact .fa {
 .section-1 .description-parts{
 
 }
+a[href$="Find-a-dealer.htm"],a[href$="service-n-support.htm"] {
+    display: none;
+}
 .parts-tile .card-title{
     color: #046682;
 }
@@ -42,21 +45,22 @@ span.contact .fa {
     font-size: 1.4rem;
 }
 .lubric-img{
-    max-width: 50%;
-    margin: auto;
+        /* max-width: 41%; */
+    /* margin: auto; */
+    object-fit: contain;
     padding-bottom: 5px;
     padding-top: 15px;
     /* min-height: 400px; */
-    height: 300px;
+    height: 190px;
 }
 .prop-img{
     /* max-width: 50%; */
     margin: auto;
-    object-fit: none;
+    object-fit: contain;
     padding-bottom: 5px;
     padding-top: 15px;
     /* min-height: 400px; */
-    /* height: 300px; */
+    height: 190px;
 }
 .subhead{
     font-style: oblique;
@@ -88,6 +92,7 @@ span.contact .fa {
 }
 .parts-tiles-row{
     padding-top: 1.25em;
+    justify-content: center;
 }
 .catalog{
     background: #4d4d4d;
@@ -248,7 +253,7 @@ form.form-signin .form-control {
     padding-top: 8px;
 }
 .Specification .specTableCardHead{
-    background: url(../assets/icon/label-long.svg);
+    background: url(../assets/icon/bigribbon.svg);
     background-repeat: no-repeat;
     background-size: 90%;
     height: 49px;
@@ -925,6 +930,7 @@ select {
     }
     #footerlogo .logo {
         width: 26px;
+        margin-right: 13px;
     }
     .item-card-group>div {
         margin-bottom: 20px;
