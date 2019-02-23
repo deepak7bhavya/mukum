@@ -21,13 +21,16 @@ span.contact .fa {
 .section-1{
     
 }
-.col-3 .carousel-control-prev,
-.col-3 .carousel-control-next,
-.col-3 .carousel-indicators{
+.prod-img-crsl-wrap .carousel-control-prev,
+.prod-img-crsl-wrap .carousel-control-next,
+.prod-img-crsl-wrap .carousel-indicators{
     display: none;
 }
 .section-1 .description-parts{
 
+}
+.pdp-img{
+    max-height: unset !important;
 }
 a[href$="Find-a-dealer.htm"],a[href$="service-n-support.htm"] {
     display: none;
@@ -573,6 +576,7 @@ div#v-pills-tab p {
 }
 .productList-col{
     max-width: 185px;
+    /* max-width: -webkit-fill-available; */
 }
 .bg-light{
     background-color: #f2f2f2!important
@@ -640,6 +644,9 @@ a.headerLogo{
 }
 .nav-link{
     color:#046682 !important;
+}
+.right-side-menu a{
+    text-align: center;
 }
 .footercolor{
     background: #034b5a !important; 
@@ -1025,6 +1032,9 @@ Media Queries for Carousel
     }
     .productList-col{
         padding-top: 40px;
+        max-width: inherit;
+        margin-top: 60px;
+        padding-right: 2.15rem;
     }
 }
 

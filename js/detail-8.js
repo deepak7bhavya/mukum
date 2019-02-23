@@ -24,7 +24,7 @@ function topFunction() {
 }
 
 $(document).ready(function(){  
-  $('.col-3 .carousel').carousel({
+  $('.prod-img-crsl-wrap .carousel').carousel({
     interval:false
   });
 
