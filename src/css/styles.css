@@ -616,6 +616,7 @@ div#v-pills-tab p {
 }
 a.headerLogo{
     top: -7px;
+    max-width: 80%;
     left: -42px;
     position: relative;
     margin-right: 0rem;
@@ -905,7 +906,7 @@ select {
         padding-bottom: 10px;
     }
     .subcategory {
-        position: sticky;
+        position: fixed;
         width: 100%;
         top: 113px;
         z-index: 2;
