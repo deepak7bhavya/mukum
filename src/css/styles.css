@@ -1023,6 +1023,9 @@ Media Queries for Carousel
         /* background: red; */
         padding-top: 45px;
     }
+    .productList-col{
+        padding-top: 40px;
+    }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
